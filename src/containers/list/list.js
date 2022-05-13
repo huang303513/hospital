@@ -1,10 +1,28 @@
 import React, { Component } from 'react'
 import './list.css'
 import { connect } from 'react-redux'
+import { requestList } from '../../utils'
 
 class List extends Component {
+
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            list: []
+        }
+    }
+
+    componentDidMount() {
+        requestList().then((response) => {
+            this.setState({
+                list: response
+            })
+        })
+    }
+
   render() {
-    const list = this.props.data.list;
+    const { list } = this.state
     
     return (
         <div>
