@@ -1,0 +1,186 @@
+.ul{
+    padding: 0;
+}
+.lists{
+    display: flex;
+    line-height: 17px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lisone{
+    width: 60px;
+    height: 100px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.mini{
+    background-color: pink;
+   
+    width: 70px;
+    height: 70px;
+}
+.listwo{
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+@media (max-width: 300px) {
+    .name {
+    width: 180px;
+    white-space:nowrap; 
+	/*规定文本不会换行,直到遇到<br>标签*/
+	overflow: hidden;  
+	/*隐藏超出的部分*/ 
+	text-overflow: ellipsis;  
+	/*将超出的文本以省略号的形式显示*/
+    }
+}  
+@media (min-width: 300px) and (max-width: 700px) {
+    .name {
+    width: 250px;
+    white-space:nowrap; 
+	/*规定文本不会换行,直到遇到<br>标签*/
+	overflow: hidden;  
+	/*隐藏超出的部分*/ 
+	text-overflow: ellipsis;  
+	/*将超出的文本以省略号的形式显示*/
+    }
+}  
+@media (min-width: 700px) {
+    .name {
+    width: 560px;
+    white-space:nowrap; 
+	/*规定文本不会换行,直到遇到<br>标签*/
+	overflow: hidden;  
+	/*隐藏超出的部分*/ 
+	text-overflow: ellipsis;  
+	/*将超出的文本以省略号的形式显示*/
+    }
+}  
+
+.one{
+    display: inline-block;
+    width: 100%;
+    padding-top: 8px;
+}
+.xing{
+    width: 14px;
+    height: 14px;
+    float: left;
+    background-image: url('../../../public/xing.png');
+    background-size: 14px 14px;
+   
+}
+.km{
+    float: right;
+}
+.city{
+    width: 100%;
+
+}
+.add{
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    line-height: 28px;
+}
+.type{
+    padding-left: 10px;
+    line-height: 28px;
+}
+.tuano {
+    display: inline-block;
+    width: 100%;
+    padding-top: 8px;
+  
+}
+@media (max-width: 300px) {
+    .tuanone {
+        float: left;
+        width: 122px;
+        line-height: 28px;
+        white-space:nowrap; 
+        /*规定文本不会换行,直到遇到<br>标签*/
+        overflow: hidden;  
+        /*隐藏超出的部分*/ 
+        text-overflow: ellipsis;  
+        /*将超出的文本以省略号的形式显示*/
+    }
+    .tuantwo {
+        float: left;
+        width: 122px;
+        line-height: 28px;
+        white-space:nowrap; 
+        /*规定文本不会换行,直到遇到<br>标签*/
+        overflow: hidden;  
+        /*隐藏超出的部分*/ 
+        text-overflow: ellipsis;  
+        /*将超出的文本以省略号的形式显示*/
+    }
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .tuanone {
+        float: left;
+        width: 200px;
+        line-height: 28px;
+        white-space:nowrap; 
+        /*规定文本不会换行,直到遇到<br>标签*/
+        overflow: hidden;  
+        /*隐藏超出的部分*/ 
+        text-overflow: ellipsis;  
+        /*将超出的文本以省略号的形式显示*/
+    }
+    .tuantwo {
+        float: left;
+        width: 200px;
+        line-height: 28px;
+        white-space:nowrap; 
+        /*规定文本不会换行,直到遇到<br>标签*/
+        overflow: hidden;  
+        /*隐藏超出的部分*/ 
+        text-overflow: ellipsis;  
+        /*将超出的文本以省略号的形式显示*/
+    }
+}
+
+@media (min-width: 700px) {
+    .tuanone {
+        float: left;
+        width: 560px;
+        line-height: 28px;
+        white-space:nowrap; 
+        /*规定文本不会换行,直到遇到<br>标签*/
+        overflow: hidden;  
+        /*隐藏超出的部分*/ 
+        text-overflow: ellipsis;  
+        /*将超出的文本以省略号的形式显示*/
+    }
+    .tuantwo {
+        float: left;
+        width: 560px;
+        line-height: 28px;
+        white-space:nowrap; 
+        /*规定文本不会换行,直到遇到<br>标签*/
+        overflow: hidden;  
+        /*隐藏超出的部分*/ 
+        text-overflow: ellipsis;  
+        /*将超出的文本以省略号的形式显示*/
+    }
+}
+.saleone {
+    float: right;
+    line-height: 28px;
+  
+}
+.saletwo{
+    float: right;
+    line-height: 28px;
+   
+}

@@ -1,0 +1,70 @@
+.listmain{
+    position: relative;
+}
+.container{
+    display: flex;
+    line-height: 17px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 15px;
+    padding-bottom: 16px;
+}
+.item{
+    flex-grow: 1;
+    text-align: center;
+
+}
+.itemtwo{
+    border-left: 1px solid #ccc;
+}
+.itemthree{
+    border-left: 1px solid #ccc;
+}
+.headlist{
+    
+    display: none;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    z-index:999;
+}
+.headonelist{
+    font-size: 18px;
+    line-height: 44px;
+}
+.headtwolist{
+    font-size: 18px;
+    line-height: 44px;
+}
+.headthreelist{
+    font-size: 18px;
+    line-height: 44px;
+}
+.headonelist span{
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+.zongheone{
+    width: 30%;
+    
+}
+.zonghetwo{
+    width: 100%;
+    
+}
+.zonghethree{
+    width: 100%;
+    
+}
+.zonghetwo{
+    width: 60%;
+    padding-left: 20px;
+}
+.two{
+    border-bottom: 1px solid #ccc;
+}
+.three{
+    border-bottom: 1px solid #ccc;
+}
